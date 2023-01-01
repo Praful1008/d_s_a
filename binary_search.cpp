@@ -22,6 +22,7 @@ int search(vector<int> v, int target){
 int main()
 {
     vector <int> v = {1,3,5,6,7,8,9};
+    // pass the array in the sortest order
     cout << search(v, 5) << endl;
 
     return 0;

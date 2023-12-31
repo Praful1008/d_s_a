@@ -8,7 +8,7 @@ int search(vector<int> v, int target){
     int idx = -1;
     int low = 0, high = v.size() - 1;
     while(low <= high){
-        int mid = low + (high - low) / 2;
+        int mid = low + (high - low) / 2;  // can do (high + low) / 2 but low + (high - low) / 2 reduces overflow.
         if(v[mid] == target) idx = mid;
         if(v[mid] > target)
             high = mid - 1;

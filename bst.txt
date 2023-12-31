@@ -1,0 +1,2 @@
+Binary search tree is a node and tree like structure
+based on binary tree   -- this is rough marking
